@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <div class="box">
+                <div class="box_inner">
+                    <h2>Calculator</h2>
+                    <div class="numbers">
+                        <p>1st Number:</p>
+                        <input id="num1" type="text">
+                        <p>2nd Number:</p>
+                        <input id="num2" type="text">
+                        <div class="buttons">
+                            <button id="multiply" onclick="multiplyBy()">Multiply</button>
+                            <button id="divide" onclick="divideBy()">Divide</button>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <p>The result is:</p>
+                        <p id="result"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="data">
+                <h2>Data</h2>
+                <p>Сегодня <span id="week">,</span> <span id="day"></span>-<span id="month"></span><span id="if"></span>.
+                    <br>Текущее время: <span id="hour"></span>:<span id="minutes"></span>: <span id="seconds"></span>: <span id="miliseconds"></span>
+                    <br><span id="clock"></span></p>
+            </div>
+
+            <div class="exs3">
+
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
